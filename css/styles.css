@@ -212,8 +212,8 @@ img {
 
 .hero-section {
     background-image: linear-gradient(
-        rgba(255, 48, 58, 0.4),
-        rgba(255, 48, 58, 0.4)
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
         ), url("../images/toplogo.jpg");
     background-size: cover;
     background-color: #C4C4C4;
