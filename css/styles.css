@@ -19,9 +19,9 @@ h2,
 h3,
 h4,
 p
-{
+{profession-list
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 ul,
@@ -336,6 +336,8 @@ img {
 .our-team-description {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .profession-list {
@@ -345,6 +347,28 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-font-color);
+}
+
+.social-list-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list-link{
+    fill: #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.social-list-link:hover,
+.social-list-link:focus{
+    fill: #FFFFFF;
+    background-color: #2196F3;
 }
 
 .footer {
