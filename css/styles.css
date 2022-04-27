@@ -368,6 +368,10 @@ img {
 .social-list-link:hover,
 .social-list-link:focus{
     fill: #FFFFFF;
+}
+
+.social-list-link:hover,
+.social-list-link:focus{
     background-color: #2196F3;
 }
 
